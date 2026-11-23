@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả Bài tập 21 - Gắn liên kết</title>
+    <link rel="stylesheet" href="chung.css">
+    <style>
+        .link-demo {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .link-box {
+            padding: 14px 18px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #0284c7;
+            border-radius: 6px;
+        }
+        .link-box a {
+            color: #0284c7;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <a href="baitapchung.html" class="logo">Tấn Khang - Web Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="baitapchung.html">Trang chủ</a></li>
+                <li><a href="bai20.html">Bài 20</a></li>
+                <li><a href="bai21.html" class="active">Bài 21</a></li>
+                <li><a href="bai22.html">Bài 22</a></li>
+                <li><a href="denkeoquan.html">Đèn Kéo Quân (JS)</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="detail-box">
+        <h2>Bài tập 21: Thực hành gắn liên kết </h2>
+        
+            <div class="link-box">
+                <strong>Link ngoại bộ mở tab mới (<code>target="_blank"</code>):</strong><br>
+                <a href="https://tkhangg-07.github.io/webcuatui/" target="_blank" rel="noopener noreferrer">Truy cập GitHub</a><br>
+                <a href="https://aesthetic-sfogliatella-d528b4.netlify.app/" target="_blank" rel="noopener noreferrer">Truy cập Netlify</a><br>
+                <a href="https://webcuatui.vercel.app/" target="_blank" rel="noopener noreferrer">Truy cập Vercel</a><br>
+                <a href="https://webcuatui.nguyenvutankhang2006.workers.dev/" target="_blank" rel="noopener noreferrer">Truy cập Workers</a><br>
+            </div>
+
+            
+
+        <br id="cuoi-trang">
+        <a href="baitapchung.html" class="btn">← Quay lại Trang chủ</a>
+    </div>
+</div>
+
+</body>
+</html>
